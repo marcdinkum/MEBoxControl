@@ -50,11 +50,11 @@ void setup()
   frameRate(30);
 
   currentRow=15;
-  idleColor=color(100,175,175);
+  idleColor=color(100,100,175);
   activeColor=color(200,225,225);
   // selected row
-  idleRowColor=color(75,200,150);
-  activeRowColor=color(50,255,255);
+  idleRowColor=color(0,200,100);
+  activeRowColor=color(200,225,225);
 
   for(int row=0; row<rows; row++){
     for(int col=0; col<columns; col++){
@@ -211,5 +211,3 @@ float rectHeight=(h-(rows+1)*margin)/rows;
     } // for
   } // for
 } // windowResized()
-
-
